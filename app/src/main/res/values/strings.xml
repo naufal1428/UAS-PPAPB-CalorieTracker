@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Calorie Tracker</string>
+    <string name="term">By checking the box you agree to our <font color='#ff0054'>Terms</font> and <font color='#ff0054'>Conditions</font></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

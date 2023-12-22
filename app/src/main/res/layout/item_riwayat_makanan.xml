@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="24dp"
+    android:layout_marginTop="16dp"
+    android:paddingVertical="16dp"
+    android:paddingHorizontal="16dp"
+    android:background="@drawable/item_background">
+
+    <TextView
+        android:id="@+id/tvItemNamaMakanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama makanan"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:layout_marginBottom="2dp"/>
+
+    <TextView
+        android:id="@+id/tvWaktuMakan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvItemNamaMakanan"
+        android:text="Jam makan"/>
+
+    <TextView
+        android:id="@+id/tvItemJumlahKalori"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:layout_below="@id/tvWaktuMakan"
+        android:layout_marginTop="2dp"/>
+
+    <TextView
+        android:id="@+id/kalori"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kalori"
+        android:layout_below="@id/tvWaktuMakan"
+        android:layout_toEndOf="@id/tvItemJumlahKalori"
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="2dp"/>
+
+    <TextView
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/baseline_delete_24"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/btnEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/baseline_edit_24"
+        android:layout_toStartOf="@id/btnDelete"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="8dp"/>
+
+</RelativeLayout>
