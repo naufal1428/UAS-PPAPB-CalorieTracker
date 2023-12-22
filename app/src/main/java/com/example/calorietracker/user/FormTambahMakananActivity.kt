@@ -71,7 +71,7 @@ class FormTambahMakananActivity : AppCompatActivity() {
     }
 
     private fun showNotification(title: String, content: String) {
-        // Intent untuk membuka RiwayatFragment
+        // Intent untuk membuka Dashboard
         val intent = Intent(this, DashboardActivity::class.java)
         intent.putExtra("open_dashboard", true)
 

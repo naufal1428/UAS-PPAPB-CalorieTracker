@@ -63,13 +63,13 @@ class FormTambahMakananCustomActivity : AppCompatActivity() {
 //        binding.edtTakaranSaji.text.clear()
 //        binding.edtJumlahKalori.text.clear()
 
-        // Optionally, you can finish the activity or perform other actions
+        // finish the activity
         showNotification("Makanan Ditambahkan", "Anda berhasil menambahkan makanan yang anda konsumsi.")
         finish()
     }
 
     private fun showNotification(title: String, content: String) {
-        // Intent untuk membuka RiwayatFragment
+        // Intent untuk membuka Dashboard
         val intent = Intent(this, DashboardActivity::class.java)
         intent.putExtra("open_dashboard", true)
 
